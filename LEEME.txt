@@ -1,0 +1,23 @@
+CANCHA STATS — paquete de web app instalable
+
+Contenido
+- index.html: aplicación
+- manifest.webmanifest: configuración para instalarla como app
+- service-worker.js: caché para uso sin conexión después de la primera carga
+- icon-*.png: iconos
+
+IMPORTANTE
+Este paquete todavía necesita alojarse en una web con HTTPS para poder instalarse como app en el iPhone. No es una aplicación nativa de App Store.
+
+Publicación gratuita sencilla con GitHub Pages
+1. Entra en https://github.com y crea una cuenta si no tienes una.
+2. Crea un repositorio nuevo (por ejemplo, cancha-stats) y súbele todos los archivos de esta carpeta, manteniendo los nombres.
+3. En el repositorio, abre Settings > Pages. En Build and deployment elige Deploy from a branch, selecciona la rama main y la carpeta /(root), y guarda.
+4. Espera a que GitHub Pages te dé la dirección HTTPS del sitio.
+5. Abre esa dirección en Safari en tu iPhone, pulsa Compartir y luego Añadir a pantalla de inicio.
+
+Datos
+Las estadísticas se guardan en el almacenamiento local del navegador de ese dispositivo. No se sincronizan automáticamente entre móviles. Exporta el CSV y guarda los partidos importantes.
+
+Uso de puntos
+Para no mostrar tiros anotados/fallados, la app permite sumar directamente 1, 2 o 3 puntos.
